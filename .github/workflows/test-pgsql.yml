@@ -41,6 +41,7 @@ jobs:
         with:
           php-version: ${{ matrix.php }}
           extensions: pdo, pdo_pgsql
+          tools: composer:v1
 
       - name: Install dependencies
         run: composer install
