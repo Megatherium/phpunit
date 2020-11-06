@@ -1,4 +1,4 @@
-me: "Tests: PostgreSQL"
+name: "Tests: PostgreSQL"
 
 on:
   - pull_request
